@@ -1,0 +1,67 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+@media screen and (max-width: 425px) {
+	#navbarResponsive_a{
+    	display: block;
+    	float: left;
+    	overflow: hidden;
+    	text-align: left;
+    	position: fixed;
+    	padding: 0px;
+    	
+	}
+	}
+	#navbarResponsive_b {
+		display: block;
+    	float: right;
+    	overflow: hidden;
+    	text-align: left;
+    	position: fixed;
+    	padding: 0px;
+	}
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.header {
+	background-color: white;
+}
+.logo {
+	width: 6%;
+}
+.content {
+	margin-top: 140px;
+}
+.ml-auto {
+	margin-left: 40px !important;
+}
+.item {
+	color: black;
+	font-size: 14pt;
+}
+/*.item_1 {
+	margin-right: 120px;
+}
+.item_2 {
+	margin-right: 20px;
+}*/
+
+.scrollspy {
+	overflow: scroll;
+	height: 440px;
+}
+.images_list {
+	padding-bottom: 10px;
+}
+.page_next {
+   margin-left:568px;
+}
